@@ -8,8 +8,8 @@ def validate_input(input: str) -> bool:
         return False
     return True
 
-
-def calculate_input(wage_input: str, hours_input: str) -> float or int:
+# You're an asshole Jordan
+def calculate_input(wage_input: str, hours_input: str) -> float:
     wage_input = float(wage_input)
     hours_input = float(hours_input)
 
