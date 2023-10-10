@@ -1,4 +1,5 @@
 #   Working calculateHourlyPay - Clean implimentation by Inj
+#   Need to add step by step comments 
 
 def validate_input(input: str) -> bool:
     try:
@@ -8,7 +9,7 @@ def validate_input(input: str) -> bool:
         return False
     return True
 
-# You're an asshole Jordan
+
 def calculate_input(wage_input: str, hours_input: str) -> float:
     wage_input = float(wage_input)
     hours_input = float(hours_input)
